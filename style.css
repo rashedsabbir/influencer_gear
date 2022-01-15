@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/******header*******/
+
+.shopping-cart,
+.drop-menu{
+    display: none;
+}
+.body-container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.nav-icon h2{
+    color: #3A3A3A;   
+    margin: 0;
+    font-size: 1.8rem;
+}
+.menubar ul{
+    display: flex;
+}
+.menubar a{
+    font-size: 20px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.menubar a:hover{
+    color: #fc0000;
+}
+.menubar li{
+    list-style: none;
+    font-weight: 600;
+}
+.fa-search,
+.fa-shopping-cart{
+    font-size: 1.2rem;
+}
+/********start-journey section*********/
+            .start-journey{
+                margin-bottom: 100px;
+            }
+            
+            .start-journey .influencer{
+                padding: 20px 0 120px 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            .start-journey-left h1{
+                margin-bottom: 10px;
+                color: #3A3A3A;
+                font-weight: bolder;
+                font-size: 2.2rem;
+            }
+            .start-journey-left p{
+                font-weight: bold;
+                color: #3A3A3A;
+                width: 70%;
+                margin-bottom: 50px;
+            }
+            .start-journey-left a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                background-color: #fc0000;
+                border-radius: 30px;
+               
+                
+            }
+            .start-journey-left a:hover{
+                
+                font-weight: bold;
+                background-color: gray;
+                border: 1px solid wheat;
+                color: wheat;
+            }
+            .fa-arrow-right{
+                margin-left: 10px;
+            }
+            
+            .start-journey-right .product-img img{
+                float: right;
+                
+            }
+            .start-journey-right .product-img{
+                position: relative;
+            }
+            #top-camera{
+                transition: transform 1s;
+                width: 90%;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+            #top-camera:hover{
+                transform:scale(0.8);
+            }
+            
+            /****brand logo****/
+            
+            .brand-logos{
+                align-items: center;
+                margin: 10px 0;
+                width: 90%;
+                justify-content: space-around;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .brand-logos img{
+                width: 70%;
+                padding: 10px 10px;
+                text-align: center;
+            }
+            .start-journey hr{
+                width: 90%;
+            }
+            
