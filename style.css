@@ -238,3 +238,19 @@ nav{
                             color: wheat;
                             font-size: 15px;
                         }
+/***********Footer area**********/
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color: wheat;
+    background-color: black;
+}
+footer .fab{
+    color: wheat;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footer-info h2{
+    margin-bottom: 0;
+}
