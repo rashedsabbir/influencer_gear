@@ -125,4 +125,73 @@ nav{
             .start-journey hr{
                 width: 90%;
             }
-            
+
+/*********Popular collection**********/
+
+.popular-collection{
+    margin-bottom: 50px;
+}
+.popular-collection h2{
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+.popular-collection .popular-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 35px 35px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.popular-products .product{
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background-color: white;
+}
+.popular-products .product:hover{
+    transform: scale(1.02);
+}
+.popular-products .product img{
+    border-radius: 5px;
+    width: 100%;
+}
+.product h3{
+    margin: 0 0 8px 0;
+    font-size: 1.5rem;
+}
+.product h4{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.popular-products .fas{
+    font-size: 10px;
+    color: orange;
+    margin-right: 3px;
+}
+.product p{
+    color: gray;
+    margin: 5px 0 0px 0 ;
+    font-weight: bold;
+}
+#rating {
+    color: black;
+}
+.see-more{
+    text-decoration: none;
+    float: right;
+    padding: 50px 0;
+    font-weight: bold;
+    color: red;
+    
+}
+.see-more .fa-arrow-right{
+    align-items: center;
+    margin-left: 5px;
+    color: red;
+    font-size: 17px;
+}
