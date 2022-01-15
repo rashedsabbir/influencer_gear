@@ -22,6 +22,7 @@
 }
 
 
+/********Tablet view********/
 
 @media only screen and (max-width: 890px) {
 
@@ -48,12 +49,25 @@
     .top-camera-back{
         display: none;
     }
+    @keyframes sliding{
+        0%{
+            left: -80px;
+        }
+        50%{
+            left: -20px;
+        }
+        100%{
+            left: -200px;
+        }
+    }
     #top-camera{
         width: 50%;
         position:relative;
         top: 20px;
         text-align: center;
         right: 25%;
+        animation: sliding 2s ease-in-out infinite alternate;
+                animation-play-state: running;
     }
     .popular-collection h2{
         font-size: 1.3rem;
@@ -90,6 +104,7 @@
 
 
 }
+/********Mobile view********/
 
 @media only screen and (max-width: 547px){
 
@@ -160,7 +175,20 @@
     .start-journey-left p{
         width: 90%;
     }
+    @keyframes sliding{
+        0%{
+            left: -80px;
+        }
+        50%{
+            left: 0px;
+        }
+        100%{
+            left: -100px;
+        }
+    }
     #top-camera{
+        animation: sliding 2s ease-in-out infinite alternate;
+                animation-play-state: running;
         width: 70%;
         right: 15%;
         top: 0;

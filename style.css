@@ -69,7 +69,7 @@ nav{
                 margin-bottom: 50px;
             }
             .start-journey-left a{
-                transform: scale(1.2, 1.2);
+                
                 text-decoration: none;
                 color: white;
                 padding: 10px 20px;
@@ -78,8 +78,9 @@ nav{
                
                 
             }
+            
             .start-journey-left a:hover{
-                transform: scale(1.2, 1.2);
+                
                 font-weight: bold;
                 background-color: black;
                 border: 1px solid black;
@@ -97,14 +98,26 @@ nav{
                 position: relative;
             }
             #top-camera{
-                transition: transform 1s;
+                
                 width: 90%;
                 position: absolute;
                 top: 20px;
                 right: 20px;
             }
+            @keyframes sliding{
+                0%{
+                    left: 0;
+                }
+                50%{
+                    left: 100px;
+                }
+                100%{
+                    left: -70px
+                }
+            }
             #top-camera:hover{
-                transform:scale(0.8);
+                animation: sliding 2s ease-in-out infinite alternate;
+                animation-play-state: running;
             }
             
             /****brand logo****/
